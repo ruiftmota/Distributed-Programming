@@ -1,0 +1,16 @@
+The program was not finished but most features can be tested.
+
+Close to the delivery date some documentation and comments were not made.
+
+The project itself is supposed to be a similar to Spotify but with many questions regarding
+specifications that forbided the use of more apropriate tecnologies.
+
+It is composed by the Client application that works only as an interface and that establishes
+the connection firstly to the Server Directory and secondly to the Server that was indentified by the SD.
+
+It is composed by the Servers that each have it's own database and is responsible to answer to all the Clients
+requests and to store everything they send.
+
+It is also composed by the Server Directory whose main feature is to account for all the clients logged to each
+of the Servers and to keep an eye in every server to see if any goes down.
+If a Server goes down it is the Server Directory role find a new server to all the clients that lost their connection.
