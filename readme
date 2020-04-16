@@ -1,9 +1,13 @@
 The program was not finished but most features can be tested.
 
+This project was developed by myself and a group member. My contribute is present mostly in the Server, Server Directory
+and some of the communication files described below.
+
 Close to the delivery date some documentation and comments were not made.
 
 The project itself is supposed to be a similar to Spotify but with many questions regarding
 specifications that forbided the use of more apropriate tecnologies.
+
 
 It is composed by the Client application that works only as an interface and that establishes
 the connection firstly to the Server Directory and secondly to the Server that was indentified by the SD.
@@ -14,3 +18,8 @@ requests and to store everything they send.
 It is also composed by the Server Directory whose main feature is to account for all the clients logged to each
 of the Servers and to keep an eye in every server to see if any goes down.
 If a Server goes down it is the Server Directory role find a new server to all the clients that lost their connection.
+
+The Shared Data folder contains most of the communitation items such as the Java files that represent the packages sent by
+all of the three programs as well as the functions that ensure the integrity of the data sent with UDP communication.
+
+
